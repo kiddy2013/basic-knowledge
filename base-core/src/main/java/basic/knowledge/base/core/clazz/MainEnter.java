@@ -1,4 +1,4 @@
-package basic.knowledge.logging.logging;
+package basic.knowledge.base.core.clazz;
 
 import java.util.logging.Logger;
 
