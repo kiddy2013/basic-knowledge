@@ -1,7 +1,5 @@
 package basic.knowledge.base.core.basetype;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 
 import java.nio.charset.StandardCharsets;
 
@@ -10,10 +8,7 @@ import java.nio.charset.StandardCharsets;
  */
 public class MainEnter {
 
-    private static final Logger log = LogManager.getLogger();
-
     public static void main(String[] args) {
-        log.info("MainEnter");
         var asda="test严";
         System.out.println(asda.codePointAt(0));
         System.out.println(asda.codePointAt(asda.length()-1));

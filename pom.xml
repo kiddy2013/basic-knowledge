@@ -11,7 +11,7 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>logging</module>
+        <module>base-core</module>
     </modules>
 
     <properties>
